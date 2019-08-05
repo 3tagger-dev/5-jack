@@ -20,8 +20,9 @@ function solution(relation)
         3. while attribute_combination_count < remaining_attributes length
             a. generate all combinations with the length of attribute_combination_count
             b. for each combination, record each pair
-                if there is a duplicate between these combinations, continue to the next combinatio
+                if there is a duplicate between these combinations, continue to the next combination
             c. if there is not then increment candidate_key for 1, and remove the combination index from remaining attributes
+            d. increment attribute_combination_count by 1
         4. return candidate_key as answer
     */
 
